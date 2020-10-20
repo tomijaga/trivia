@@ -1,0 +1,11 @@
+.options {
+  cursor: pointer;
+  color: azure;
+  font-size: 1.6rem;
+  padding: 8pt;
+  text-align: center;
+  width: 100%;
+  border: 8pt groove rgba(200, 210, 225, 0.4);
+  border-radius: 20pt;
+  background-clip: padding-box;
+}

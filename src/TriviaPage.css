@@ -1,0 +1,39 @@
+@keyframes animate_next {
+  0% {
+    margin-left: 12pt;
+    margin-right: 8pt;
+  }
+  25% {
+    margin-left: 14pt;
+    margin-right: 6pt;
+  }
+  50% {
+    margin-left: 16pt;
+    margin-right: 4pt;
+    color: rgb(4, 170, 244);
+  }
+  75% {
+    margin-left: 14pt;
+    margin-right: 6pt;
+  }
+  100% {
+    margin-left: 12pt;
+    margin-right: 8pt;
+  }
+}
+
+.animate_arrow {
+  font-size: 1.1rem;
+  margin: 0pt 10pt;
+}
+
+.next_button:hover .animate_arrow {
+  animation: animate_next 1.5s infinite;
+}
+.next_button:hover {
+  cursor: pointer;
+}
+
+.next_button:focus {
+  outline: none;
+}
